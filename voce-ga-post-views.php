@@ -1,7 +1,5 @@
 <?php
 
-require_once( __DIR__ . '/popular-posts-widget.php');
-
 class Voce_GA_Post_Views {
 
 	CONST VERSION = 0.5;

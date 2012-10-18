@@ -4,7 +4,7 @@ class Popular_Posts_Widget extends WP_Widget {
 
 	function __construct() {
 		parent::__construct(
-			'post_views_widget', 'Popular Posts Widget', array( 'description' => __( 'Displays most viewed posts basesd on Google Analytics information.', 'vocewiki' ), ) // Args
+			'post_views_widget', 'Popular Posts', array( 'description' => __( 'Displays most viewed posts basesd on Google Analytics information.', 'vocewiki' ), ) // Args
 		);
 	}
 
